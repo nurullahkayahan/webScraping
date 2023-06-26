@@ -44,7 +44,7 @@ def scrape_kitapsepeti():
         else:
             collection.insert_one(book_data)
 
-    print("Veriler MongoDB'ye kaydedildi.")
+    print("Data has been saved to MongoDB.")
 
 
 
